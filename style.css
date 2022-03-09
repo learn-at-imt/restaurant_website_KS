@@ -13,13 +13,6 @@ h1{
    color: green;
 }
 
-a{
-    
-   margin-right: 10px;
-}
-
-
-
 p{
     text-align: center;
     color: black;
@@ -27,42 +20,57 @@ p{
 .low{
     text-decoration: underline;
 }
-
-
-.top-container{
-    background-color:#fff;
-    
-    
-   
-
-}
 .upper-container{
     background-color: darkgray;
     width: 100%;
     height: 600px;
     position: relative;
 }
-.middle-container{
-    position: absolute;
-    left: 20px;
+.logo{
+    border-radius: 50%;
+    width: 180px;
+    height:180px ;
+    margin-left: 0;
+}
+
+.top-container{
+    background-color:#fff;
     
 }
 .container-one{
-    position: absolute;
-   bottom: 20px;
-    right: 20px;
     border-radius: 50%;
+    position: absolute;
+    left: 20px;
+}
+
+.container-two{
+    position: absolute;
+    left: 60px;
+    bottom: 41px;
+    border-radius: 20%;
+}
+.container-three{
+    position: relative;
+    left: 60px;
+    bottom: 350px;
 }
 
 .container-four{
     position: absolute;
     right: 20px;
+    bottom: 20px;
+    
+    
+    
 }
 
-.bottom-container{
-    
+.middle-container{
+    position: absolute;
+    right: 20px;
+   
     
 }
+
 .down-container{
     background-color: lightgrey;
     width: 200px;
@@ -71,9 +79,12 @@ p{
    left: 20px;
    top: 50px;
 }
-.logo{
+.first-image{
     border-radius: 50%;
-    width: 180px;
-    height:180px ;
-    margin-left: 70%;
+    height: 500px;
+    width: 500px;
+}
+table{
+    text-align: center;
+    margin-left: 35%;
 }
